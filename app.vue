@@ -1,6 +1,12 @@
 <template>
-  <div>
-    <h1>Ola</h1>
-    <NuxtWelcome />
-  </div>
+  <Layout />
 </template>
+
+<script>
+import Layout from './layouts/default.vue'
+export default {
+  components: {
+    Layout
+  }
+}
+</script>
